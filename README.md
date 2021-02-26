@@ -1,4 +1,4 @@
-# node.js Wrapper für die GeoJSON-Schnittstelle von schach.in
+# node.js Datenwrapper für schach.in
 
 Package für node.js, das die Vereinsdaten aus der GeoJSON-Schnittstelle unter https://schach.in/deutschland.geojson lädt.
 
@@ -21,6 +21,8 @@ Das Package bietet daneben ein einfaches Kommandozeilentool, um die Daten eines 
 ```sh
 > schach-data karlsruher-sf-1853
 ```
+
+Hierfür muss das Package zuvor via `npm install -g @schach.in/clubs` global installiert werden.
 
 ## Beispielergebnis
 

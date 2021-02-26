@@ -1,0 +1,32 @@
+{
+  "name": "@schach.in/clubs",
+  "version": "1.0.0",
+  "description": "Data wrapper for all chess clubs of schach.in",
+  "type": "module",
+  "exports": {
+    ".": "./lib/index.js"
+  },
+  "bin": {
+    "schach-data": "./bin/index.js"
+  },
+  "scripts": {
+    "test": "standard"
+  },
+  "keywords": [
+    "schach.in",
+    "chess"
+  ],
+  "author": "Falco Nogatz <fnogatz@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-eslint": "^10.1.0",
+    "standard": "^16.0.3"
+  },
+  "standard": {
+    "parser": "babel-eslint"
+  },
+  "dependencies": {
+    "commander": "^7.1.0",
+    "node-fetch": "^2.6.1"
+  }
+}

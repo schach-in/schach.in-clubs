@@ -12,7 +12,7 @@ npm install @schach.in/clubs
 
 ```js
 import Clubs from '@schach.in/clubs'
-const data = await Clubs.get('sc-weilerbach')
+const data = await Clubs.get('karlsruher-sf-1853')
 console.log(data)
 ```
 

@@ -1,8 +1,7 @@
 #!/usr/bin/env node
 
 import Clubs from '@schach.in/clubs'
-import commander from 'commander'
-const program = commander.program
+import { program } from 'commander'
 
 program
   .name('schach-data')

@@ -22,7 +22,7 @@
     "standard": "^17.0.0"
   },
   "dependencies": {
-    "commander": "^7.1.0",
-    "node-fetch": "^2.6.1"
+    "commander": "^10.0.0",
+    "node-fetch": "^3.3.0"
   }
 }

@@ -1,6 +1,6 @@
 {
   "name": "@schach.in/clubs",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Data wrapper for all chess clubs of schach.in",
   "type": "module",
   "exports": {
